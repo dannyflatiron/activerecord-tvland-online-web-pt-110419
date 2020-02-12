@@ -7,7 +7,7 @@ class Show < ActiveRecord::Base
   def actors_list
     binding.pry
     actors.map do |character|
-      character.name
+      "#{character.first_name} #{character.last_name}"
     end
   end
 end
