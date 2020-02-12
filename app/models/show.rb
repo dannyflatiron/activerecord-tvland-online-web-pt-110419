@@ -10,4 +10,6 @@ class Show < ActiveRecord::Base
       "#{character.first_name} #{character.last_name}"
     end
   end
+
+
 end
